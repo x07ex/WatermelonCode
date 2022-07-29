@@ -25,7 +25,7 @@ def toLowerCase(txt: str) -> str:
             newText += x
     return newText
 
-def _main(txt: str) -> int:
+def _main(txt: str) -> str:
     if txt.islower():
         print("LowerCase\n" + toUpperCase(txt))
     else:
