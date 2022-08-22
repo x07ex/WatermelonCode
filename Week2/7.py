@@ -1,21 +1,10 @@
 """
-const alumnos = []
-const n = Number(prompt("Ingresa la consulta").split(" "))
-for (let i = 0; i < n; i++) {
-    if (input[0] == "3") {
-        const alumno = alumnos.find(alumno => alumno.name == input[1])
-        console.log(alumno != undefined ? alumno.points : 0)
-    } else if (input[0] == "1") {
-        const index = alumnos.findIndex(alumno => alumno.name == input[1])
-        if (index == -1) alumnos.push({ name: input[1], points: input[2]})
-        else alumnos[index].points += Number(input[2])
-    } else if (input[0] == "2") {
-        const index = alumnos.findIndex(alumno => alumno.name == input[1])
-        delete alumnos[index]
-    } else {
-        console.log("Opcion no valida)
-    }
-}
+14.-Maps (non geographics)
+
+Tú eres el asistente de un profesor en la escuela y ella esta corrigiendo pruebas de alumnos. Cada alumno tiene multiples hojas de respuestas. Entonces la profesora quiere hacer Q consultas.
+1 X Y: agrega el puntaje Y al estudiante con nombre X.
+2 X: elimina el puntaje del estudiante con nombre X.
+3 X: muestra por pantalla el puntaje del estudiante con nombre X. (Si X no tiene puntaje, entonces muestre por pantalla 0)
 """
 
 def _main():
