@@ -23,3 +23,7 @@
 * **Recursividad, grafos y programacion dinamica**
 
 ---
+
+<div align="center">
+  <img src="https://github.com/x07ex/WatermelonCode/blob/main/desafio_2daedicion_wc.png">
+</div>
